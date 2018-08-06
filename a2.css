@@ -1,58 +1,43 @@
-html{
-	box-sizing: border-box;
-	background: #6495ED;
-	font-family: Comic Sans MS;
-	font-weight: 100;
-}
 body{
 	margin: 0;
+	font-family: sans-serif;
+	background: url("https://i.kinja-img.com/gawker-media/image/upload/s--NF-nUWn2--/c_scale,f_auto,fl_progressive,q_80,w_800/y5hxkss8mg5gncwtjfgf.jpg");
+    background-size: cover;
+     display: flex;
+     align-items: center;
+     min-height: 100vh;
 }
-#h2{
-	text-align: left;
-	color: #FF7F50; 
-	font-size: 50px;
-	font-family: Arial Narrow ;
-    font-weight: 200;
-}
-#h3{
-	font-size: 20px;
-	font-family: Arial Narrow; 
-	font-weight: 200;
-}
-.form{
-	background: white;
-	margin: 100px auto;
-	text-align: justify;
-	max-width: 400px;
-	padding: 20px;
-	font-size: 20px;
-}
-.input{
-	border-radius: 5px solid black;
-	display : flex;
-	flex: 1;
-	height : 25px;
-	width: 400px;
-}
-#message{
-	height: 75px;
-}
-#submit{
-	width: 400px;
-	height: 50px;
-	background: #6495ED; 
-	font-family: Arial;
-	color: white;
-	font-size: 25px;
-}
-.error{
-	color: red;
-	font-size: 15px;
-	font-family: Arial Narrow; 
-	font-weight: 200;
-}
-.success{
-	color: black;
-	font-size: 50px;
-	font-family: Comic Sans MS;
-}
+#bands {
+      list-style: inside square;
+      font-size: 20px;
+      background: white;
+      width: 500px;
+      margin: auto;
+      padding: 0;
+      box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
+    }
+#bands li {
+      border-bottom: 1px solid #efefef;
+      padding: 20px;
+    }
+    #bands li:last-child {
+      border-bottom: 0;
+    }
+    a {
+      color: #ffc600;
+      text-decoration: none;
+    }
+    .hero{
+    	min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    }
+    h1 {
+    text-shadow: 10px 10px 0 rgba(0,0,0,1);
+    font-size: 75px;
+    margin : auto;
+    padding : 50px;
+    color: #8B4513;
+  }
