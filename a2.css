@@ -20,13 +20,6 @@ body{
       border-bottom: 1px solid #efefef;
       padding: 20px;
     }
-    #bands li:last-child {
-      border-bottom: 0;
-    }
-    a {
-      color: #ffc600;
-      text-decoration: none;
-    }
     .hero{
     	min-height: 100vh;
     display:flex;
